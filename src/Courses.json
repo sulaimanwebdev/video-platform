@@ -1,8 +1,8 @@
 [
     {
-        "id": 1,
         "courseCover": "/images/course-cover.png",
         "courseName": "Complete Web 3.0 Course",
+        "courseId": "complete-web-3.0-course",
         "courseIntroduction": "The is the introduction of the course ofcourse you can edit and put more content this is just dummy text for demo",
        "courses": [
         {
@@ -11,13 +11,13 @@
                 "categoryName": "Introduction",
                 "videos": [
                     {
-                        "videoId": "45",
                         "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
                         "videoCover": "/images/introduction-cover.png",
                         "videoTitle": "What is Metamask",
+                        "videoId": "what-is-metamask",
                         "videoDescription": "The is dummy video discription ofcourse you can change it"
                     }
-                    
+                   
                 ]
                }
            ]

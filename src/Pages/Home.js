@@ -9,7 +9,7 @@ const Home = () => {
        {
         Courses.map((ele)=>{
             return(
-           <Link to={`/${ele.id}`} key={ele.id} className="pb-[60px] relative rounded-2xl bg-white border-2 border-yellow-500 overflow-hidden">
+           <Link to={`/${ele.courseId}`} key={ele.courseId} className="pb-[60px] relative rounded-2xl bg-white border-2 border-yellow-500 overflow-hidden">
                 <div className="w-full h-[150px]"><img src={ele.courseCover} className='w-full h-full object-cover' alt="course" /></div>
                 <div className="px-3 mt-3 font-[600] text-[22px] leading-snug">{ele.courseName}</div>
                 <div className="absolute w-full bottom-0 left-0 px-3 mt-3 py-3 border-t flex items-center justify-between">

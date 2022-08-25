@@ -5,7 +5,8 @@ import Courses from '../Courses.json'
 const SingleCourse = () => {
 
   const { id } = useParams();
-  let getdata = Courses[id - 1];
+  const getdata = Courses.find(el => el.courseId === id);
+
 
   return (
     <>
