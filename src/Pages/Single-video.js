@@ -2,27 +2,32 @@ import React, {useState, useEffect} from 'react'
 import {useParams, Link} from 'react-router-dom'
 import Courses from '../Courses.json'
 const SingleVideo = () => {
-  const { id } = useParams();
+  const { id, course } = useParams();
+  const [mainData, setmainData] = useState([])
 
-  const [newData, setnewData] = useState()
-  
+
   useEffect(() => {
-    Courses.map((asd)=>[
-      asd.courses.map((newasd)=>{
-        newasd.categories.map((asdasd)=>[
-          setnewData(asdasd.videos)
-        ])
-      })
-    ])
-  
+   
+  const getdata = Courses.find(el => el.courseId === course);
+
+
+
+  getdata.categories.map((ele)=>{
+    const getNewdata = ele.videos.find(el => el.videoId === id);
+    setmainData(getNewdata)
+  })
+
+
   }, [])
   
-  const element = newData.find(el => el.videoId === id);
 
-  console.log(element)
+
+
+
 
   return (
     <>
+     {mainData.videoUrl}
     </>
   )
 }
