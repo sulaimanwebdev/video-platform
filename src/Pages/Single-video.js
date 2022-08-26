@@ -27,7 +27,12 @@ const SingleVideo = () => {
 
   return (
     <>
-     {mainData.videoUrl}
+     
+
+
+     <video width="100%" height="300" controls >
+      <source src={mainData.videoUrl} type="video/mp4"/>
+</video>
     </>
   )
 }
