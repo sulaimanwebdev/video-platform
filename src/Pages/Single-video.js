@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {useParams, Link} from 'react-router-dom'
 import Courses from '../Courses.json'
 const SingleVideo = () => {
-  const { id, course } = useParams();
+  const { id, course, category } = useParams();
   const [mainData, setmainData] = useState([])
 
 
