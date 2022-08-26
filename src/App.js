@@ -12,8 +12,8 @@ function App() {
      <Header/>
      <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/:id" element={<SingleCourse/>} />
-      <Route path="/:course/:category/:id" element={<SingleVideo/>} />
+      <Route path="/course/:id" element={<SingleCourse/>} />
+      <Route path="/course/:course/:category/:id" element={<SingleVideo/>} />
     </Routes>
     </BrowserRouter>
    </>

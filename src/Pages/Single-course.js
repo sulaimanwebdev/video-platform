@@ -39,7 +39,7 @@ const SingleCourse = () => {
                  {
                   categories.videos.map((video)=>{
                     return(
-                        <Link to={`/${getdata.courseId}/${categories.categoryName.toLowerCase()}/${video.videoId}`} key={video.videoId} className="mainCard pb-[60px] relative rounded-2xl bg-white border-2 border-yellow-500 overflow-hidden">
+                        <Link to={`/course/${getdata.courseId}/${categories.categoryName.toLowerCase()}/${video.videoId}`} key={video.videoId} className="mainCard pb-[60px] relative rounded-2xl bg-white border-2 border-yellow-500 overflow-hidden">
                           <div className="w-full h-[150px] overflow-hidden relative"><img src={video.videoCover} className='w-full h-full object-cover' alt="course" /><div className="z-10 absolute top-0 left-0 w-full h-full bg-yellow-500 bg-opacity-70 flex items-center justify-center transition opacity-0 hoverBG"><img src="/images/play.svg" alt="play" className='w-[40px]' /></div></div>
                           <div className="px-3 mt-3 font-[600] text-[22px] leading-snug">{video.videoTitle}</div>
                           <div className="absolute w-full bottom-0 left-0 px-3 mt-3 py-3 border-t flex items-center justify-between">
