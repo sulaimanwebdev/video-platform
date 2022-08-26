@@ -13,3 +13,8 @@ body {
 .mainCard:hover .hoverBG{
   opacity: 100;
 }
+video {
+    max-width: 100%;
+    height: 400px;
+    object-fit: contain;
+}

@@ -10,29 +10,17 @@ const SingleVideo = () => {
    
   const getdata = Courses.find(el => el.courseId === course);
 
-
-
   getdata.categories.map((ele)=>{
     const getNewdata = ele.videos.find(el => el.videoId === id);
     setmainData(getNewdata)
   })
 
-
   }, [])
-  
-
-
-
-
 
   return (
     <>
-     
 
-
-     <video width="100%" height="300" controls >
-      <source src={mainData.videoUrl} type="video/mp4"/>
-</video>
+<video src={mainData.videoUrl} width="100%" height="" controls></video>
     </>
   )
 }
