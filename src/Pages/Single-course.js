@@ -10,7 +10,7 @@ const SingleCourse = () => {
 
   return (
     <>
-    <div className='w-full'>
+    <div className='w-full pb-10'>
     <div className="w-full py-5 min-h-[300px] relative mt-6">
     <img src={getdata.courseCover} alt="cover" className='absolute top-0 left-0 w-full h-full object-cover blur-lg' />
     <div className="relative z-10  px-5 flex items-center justify-between gap-6 flex-wrap mx-auto max-w-[1350px]">

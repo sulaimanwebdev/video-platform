@@ -1,45 +1,11 @@
-import { useEffect } from 'react'
-import { useNavigate, NavigationType, Route } from "react-router-dom";
 import {Link} from 'react-router-dom'
 import Courses from '../Courses.json'
-import WhitelistAddresses from '../Whitelist-addresses.json'
 
-const Home = ({account}) => {
-const navigate = useNavigate();
+const Home = () => {
 
-let qwqweqweqwe = "0x16BAd80bd03EbDC93f3AE6a5D41c6e60131c2e18";
-  let qweqwe = () =>{
-    if(WhitelistAddresses.some(address => address.address === qwqweqweqwe)){
-      alert('working')
-    }
-    else{
-      alert('not working')
-    }
-  }
-  useEffect(() => {
-  
-// qweqwe();
-
-
-
-
- if(localStorage?.getItem('isWalletConnected') === 'true'){
-  navigate('/')
- }
-
-
-
-  }, [])
-
-
-  
   return (
     <>
-
-    {
-      localStorage?.getItem('isWalletConnected') === 'true' ? "" : 
-
-      <div className='w-full'>
+      <div className='w-full pb-10'>
       <div className="w-full mx-auto max-w-[1350px] grid grid-cols-4 gap-7 px-5 mt-10">
          {
           Courses.map((ele)=>{
@@ -57,8 +23,6 @@ let qwqweqweqwe = "0x16BAd80bd03EbDC93f3AE6a5D41c6e60131c2e18";
         }
       </div>
       </div>
-    }
-    
     </>
   )
 }
