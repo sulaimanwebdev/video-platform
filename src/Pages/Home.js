@@ -1,7 +1,26 @@
+import { useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import Courses from '../Courses.json'
+import WhitelistAddresses from '../Whitelist-addresses.json'
 
 const Home = () => {
+
+let qwqweqweqwe = "0x16BAd80bd03EbDC93f3AE6a5D41c6e60131c2e18";
+  let qweqwe = () =>{
+    if(WhitelistAddresses.some(address => address.address === qwqweqweqwe)){
+      alert('working')
+    }
+    else{
+      alert('not working')
+    }
+  }
+  useEffect(() => {
+  
+qweqwe();
+  }, [])
+
+
+  
   return (
     <>
     <div className='w-full'>
