@@ -41,7 +41,7 @@ function App() {
         }
       }
     }
-    connectWalletOnPageLoad()
+    // connectWalletOnPageLoad()
   }, [])
 
 
@@ -54,7 +54,7 @@ function App() {
       <Route path="/" element={<Login connect={connect}/>} />
 
       {/* bottom routes should be protected */}
-      <Route path="/home" element={<Home/>} />
+      <Route path="/home" element={<Home account={account}/>} />
       <Route path="/course/:id" element={<SingleCourse/>} />
       <Route path="/course/:course/:category/:id" element={<SingleVideo/>} />
       
