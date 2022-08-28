@@ -43,7 +43,7 @@ function App() {
         }
       }
     }
-    connectWalletOnPageLoad()
+    // connectWalletOnPageLoad()
   }, [])
 
 
