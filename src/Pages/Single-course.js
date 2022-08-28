@@ -18,7 +18,7 @@ const SingleCourse = () => {
      <h1 className='text-white font-bold text-[30px]'>{getdata.courseName}</h1>
      <button className='px-8 mt-5 py-3 rounded-md bg-yellow-500 transition hover:bg-yellow-600 text-white font-[600]'>Start</button>
      </div>
-     <div className="relative min-w-[400px] min-h-[250px] max-w-[400px] max-h-[250px] rounded-md overflow-hidden border-2 border-yellow-500"><img src={getdata.courseCover} alt="cover" className='absolute top-0 left-0 w-full h-full object-cover' /></div>
+     <div className="relative w-full sm:min-w-[400px] min-h-[250px] sm:max-w-[400px] max-h-[250px] rounded-md overflow-hidden border-2 border-yellow-500"><img src={getdata.courseCover} alt="cover" className='absolute top-0 left-0 w-full h-full object-cover' /></div>
     </div>
     </div>
     <div className="w-full border-b-2 pb-5">
@@ -35,7 +35,7 @@ const SingleCourse = () => {
               return(
                <div className='' key={Math.random()}>
                  <div className="font-bold text-[27px] mb-5">{categories.categoryName}</div>
-                 <div className="grid grid-cols-4 gap-7">
+                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
                  {
                   categories.videos.map((video)=>{
                     return(

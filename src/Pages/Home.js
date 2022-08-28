@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className='w-full pb-10'>
-      <div className="w-full mx-auto max-w-[1350px] grid grid-cols-4 gap-7 px-5 mt-10">
+      <div className="w-full mx-auto max-w-[1350px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-5 mt-10">
          {
           Courses.map((ele)=>{
               return(
