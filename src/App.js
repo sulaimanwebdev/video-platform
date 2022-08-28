@@ -52,10 +52,10 @@ function App() {
      <BrowserRouter>
      <Header account={account} active={active}/>
      <Routes>
-      <Route path="/" element={<Login connect={connect}/>} />
-      <Route path="/home" element={<ProtectedRoute Component={Home} account={account}/>} />
-      <Route path="/course/:id" element={<ProtectedRoute Component={SingleCourse} account={account}/>} />
-      <Route path="/course/:course/:category/:id" element={<ProtectedRoute Component={SingleVideo} account={account}/>} />
+      <Route path="/" element={<Login connect={connect} active={active}/>} />
+      <Route path="/home" element={<ProtectedRoute Component={Home} account={account} active={active}/>} />
+      <Route path="/course/:id" element={<ProtectedRoute Component={SingleCourse} account={account} active={active}/>} />
+      <Route path="/course/:course/:category/:id" element={<ProtectedRoute Component={SingleVideo} account={account} active={active}/>} />
     </Routes>
     </BrowserRouter>
    </>
