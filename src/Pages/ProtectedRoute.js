@@ -15,7 +15,7 @@ const navigate = useNavigate();
         
   return (
     <>
-     {active === false ? "" : <>{WhitelistAddresses.includes(account) ? <Component/> : <div className='w-full flex items-center justify-center h-[calc(100vh-85px)] px-5'>Sorry you are not eligible</div>}</>}
+     {active === false ? navigate('/') && ""  : <>{WhitelistAddresses.includes(account) ? <Component/> : <div className='w-full flex items-center justify-center h-[calc(100vh-85px)] px-5'>Sorry you are not eligible</div>}</>}
     </>
   )
 }
