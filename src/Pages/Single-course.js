@@ -7,7 +7,8 @@ const SingleCourse = () => {
   const { id } = useParams();
   const getdata = Courses.find(el => el.courseId === id);
 
-
+  let getFirstObject = getdata.categories[0].videos[0].videoId;
+  
   return (
     <>
     <div className='w-full pb-10'>
@@ -16,7 +17,7 @@ const SingleCourse = () => {
     <div className="relative z-10  px-5 flex items-center justify-between gap-6 flex-wrap mx-auto max-w-[1350px]">
      <div>
      <h1 className='text-white font-bold text-[30px]'>{getdata.courseName}</h1>
-     <button className='px-8 mt-5 py-3 rounded-md bg-yellow-500 transition hover:bg-yellow-600 text-white font-[600]'>Start</button>
+     <button className='mt-5'><Link className='px-8 py-3 rounded-md bg-yellow-500 transition hover:bg-yellow-600 text-white font-[600]' to={`/course/${getdata.courseId}/${getdata.categories.map((start1)=>{return(start1.categoryName.toLowerCase())})}/${getFirstObject}`}>Start</Link></button>
      </div>
      <div className="relative w-full sm:min-w-[400px] min-h-[250px] sm:max-w-[400px] max-h-[250px] rounded-md overflow-hidden border-2 border-yellow-500"><img src={getdata.courseCover} alt="cover" className='absolute top-0 left-0 w-full h-full object-cover' /></div>
     </div>
