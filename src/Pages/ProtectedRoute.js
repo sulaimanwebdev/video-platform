@@ -10,8 +10,13 @@ const navigate = useNavigate();
           navigate('/')
     }
 
-         
     }, [])
+
+    if(active === false){
+      navigate('/')
+  }
+  
+    
         
   return (
     <>
