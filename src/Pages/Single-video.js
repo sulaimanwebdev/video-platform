@@ -10,13 +10,13 @@ const SingleVideo = () => {
    
   const getdata = Courses.find(el => el.courseId === course);
 
-let completeData = getdata.categories.filter(d => d.categoryName ===  category);
+let completeData = getdata.categories.filter(d => d.categorySlug ===  category);
 
 
 completeData.map((ele)=>{
     const getNewdata = ele.videos.find(el => el.videoId === id);
     setmainData(getNewdata)   
-     
+
   })
 
 

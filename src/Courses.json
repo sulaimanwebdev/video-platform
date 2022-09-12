@@ -7,6 +7,7 @@
       "categories": [
         {
           "categoryName": "Introduzione",
+          "categorySlug": "introduzione",
           "videos": [
             {
               "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
@@ -40,6 +41,7 @@
         },
         {
           "categoryName": "Piattaforme DEX",
+          "categorySlug": "piattaforme-dex",
           "videos": [
             {
               "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
@@ -59,6 +61,7 @@
         },
         {
           "categoryName": "Guida Binance",
+          "categorySlug": "guida-binance",
           "videos": [
             {
               "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
@@ -113,6 +116,7 @@
         },
         {
           "categoryName": "Guida Metamask",
+          "categorySlug": "guida-metamask",
           "videos": [
             {
               "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
