@@ -1,73 +1,149 @@
 [
-
-
     {
-        "courseCover": "/images/course-cover.png",
-        "courseName": "Manuale Operativo",
-        "courseId": "manuale-operativo",
-        "courseIntroduction": "Il Manuale Operativo viene fornito a tutti i membri della nostra community.\nQuesto Manuale non è un percorso formativo sulla DeFi, bensì una guida al cui interno sono racchiuse tutte le operazioni da compiere per accedere alle opportunità che vengono presentate alla community.\nÈ opportuno saper eseguire tutti i passaggi che vengono spiegati all'interno del Manuale così com'è opportuno imparare tutti i termini contenuti all'interno del glossario, al fine di poter rendere ogni membro della community capace, consapevole e allineato con gli altri.\n",
-           
-        "categories": [
-               {
-                "categoryName": "Introduzione",
-                "videos": [
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/25338/BENVENUTO%21.png",
-                        "videoTitle": "1) Benvenuto",
-                        "videoId": "benvenuto",
-                        "videoDescription": "Benvenuti ragazzi all'interno della nostra community!"
-                    },
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/22685/BINANCE.png",
-                        "videoTitle": "2) Binance",
-                        "videoId": "binanc",
-                        "videoDescription": ""
-                    },
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/24342/METAMASK.png",
-                        "videoTitle": "3) Metamask",
-                        "videoId": "metamask",
-                        "videoDescription": ""
-                    },
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/26473/GLOSSARIO.png",
-                        "videoTitle": "4) Glossario",
-                        "videoId": "glossario",
-                        "videoDescription": "https://academy.spacegem.finance/attachments/download/manuale-operativo/26473/Il-Crypto-Glossario-di-SpaceGem.pdf"
-                    }
-
-                ]
-               },
-
-               {
-                "categoryName": "Piattaforme DEX",
-
-                "videos": [
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/25340/PANCAKESWAP.png",
-                        "videoTitle": "1) Pancakeswap",
-                        "videoId": "pancakeswap",
-                        "videoDescription": ""
-                    },
-                    {
-                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "https://media.ulama.io/lessons/25345/TOOLS.png",
-                        "videoTitle": "2) Tools",
-                        "videoId": "tools",
-                        "videoDescription": ""
-                    }
-                ]
-               }
-       ]
+      "courseCover": "/images/course-cover.png",
+      "courseName": "Manuale Operativo",
+      "courseId": "manuale-operativo",
+      "courseIntroduction": "Il Manuale Operativo viene fornito a tutti i membri della nostra community.\nQuesto Manuale non è un percorso formativo sulla DeFi, bensì una guida al cui interno sono racchiuse tutte le operazioni da compiere per accedere alle opportunità che vengono presentate alla community.\nÈ opportuno saper eseguire tutti i passaggi che vengono spiegati all'interno del Manuale così com'è opportuno imparare tutti i termini contenuti all'interno del glossario, al fine di poter rendere ogni membro della community capace, consapevole e allineato con gli altri.\n",
+      "categories": [
+        {
+          "categoryName": "Introduzione",
+          "videos": [
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/25338/BENVENUTO%21.png",
+              "videoTitle": "1) Benvenuto",
+              "videoId": "benvenuto",
+              "videoDescription": "Benvenuti ragazzi all'interno della nostra community!"
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/22685/BINANCE.png",
+              "videoTitle": "2) Binance",
+              "videoId": "binance",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/24342/METAMASK.png",
+              "videoTitle": "3) Metamask",
+              "videoId": "metamask",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26473/GLOSSARIO.png",
+              "videoTitle": "4) Glossario",
+              "videoId": "glossario",
+              "videoDescription": "https://academy.spacegem.finance/attachments/download/manuale-operativo/26473/Il-Crypto-Glossario-di-SpaceGem.pdf"
+            }
+          ]
+        },
+        {
+          "categoryName": "Piattaforme DEX",
+          "videos": [
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/25340/PANCAKESWAP.png",
+              "videoTitle": "1) Pancakeswap",
+              "videoId": "pancakeswap",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/25345/TOOLS.png",
+              "videoTitle": "2) Tools",
+              "videoId": "tools",
+              "videoDescription": ""
+            }
+          ]
+        },
+        {
+          "categoryName": "Guida Binance",
+          "videos": [
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/24444/INTRODUZIONE.png",
+              "videoTitle": "1) Introduzione Binance",
+              "videoId": "introduzione-binance",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://public.bnbstatic.com/image/cms/article/body/202204/00a57b4e4322eeee78a9b4560653463c.png",
+              "videoTitle": "2) Come depositare euro con bonifico",
+              "videoId": "binance-depositare-bonifico",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://www.mastercard.it/content/dam/public/mastercardcom/it/it/consumers/find-a-card/cards/privati_credito_bianca.png",
+              "videoTitle": "3) Come depositare euro con carta",
+              "videoId": "binance-depositare-carta",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://public.bnbstatic.com/image/cms/content/body/202010/80bfa3d4447b132fdcd0ccdaf372c163.png",
+              "videoTitle": "4) Come convertire euro in crypto",
+              "videoId": "binance-convertire-euro",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://public.bnbstatic.com/image/cms/content/body/202010/80bfa3d4447b132fdcd0ccdaf372c163.png",
+              "videoTitle": "5) Come trasferire crypto",
+              "videoId": "binance-trasferire-crypto",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26468/ACQUISTO+BNB.png",
+              "videoTitle": "6) Come acquistare BNB",
+              "videoId": "binance-comprare-bnb",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26470/TRASFERIMENTO+BNB.png",
+              "videoTitle": "7) Come trasferire BNB",
+              "videoId": "binance-trasferire-bnb",
+              "videoDescription": ""
+            }
+          ]
+        },
+        {
+          "categoryName": "Guida Metamask",
+          "videos": [
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/24445/INTRODUZIONE.png",
+              "videoTitle": "1) Introduzione Metamask",
+              "videoId": "introduzione-metamask",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26465/SCARICARE+METAMASK.png",
+              "videoTitle": "2) Come scaricare Metamask",
+              "videoId": "come-scaricare-metamask",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26467/TRASFERIMENTO+BNB.png",
+              "videoTitle": "3) Come spostare BNB su Metamask",
+              "videoId": "come-spostare-bnb-su-metamask",
+              "videoDescription": ""
+            },
+            {
+              "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+              "videoCover": "https://media.ulama.io/lessons/26471/RETE+BSC.png",
+              "videoTitle": "4) Come impostare rete BSC",
+              "videoId": "come-impostare-bsc",
+              "videoDescription": ""
+            }
+          ]
+        }
+      ]
     }
-
-
-
-    
-
-]
+  ]
