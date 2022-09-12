@@ -2,7 +2,7 @@ import React, {useState, useEffect,} from 'react'
 import {useParams} from 'react-router-dom'
 import Courses from '../Courses.json'
 const SingleVideo = () => {
-  const { id, course } = useParams();
+  const { id, category, course } = useParams();
   const [mainData, setmainData] = useState([])
 
 
@@ -10,9 +10,13 @@ const SingleVideo = () => {
    
   const getdata = Courses.find(el => el.courseId === course);
 
-  getdata.categories.map((ele)=>{
+let completeData = getdata.categories.filter(d => d.categoryName ===  category);
+
+
+completeData.map((ele)=>{
     const getNewdata = ele.videos.find(el => el.videoId === id);
-    setmainData(getNewdata)
+    setmainData(getNewdata)   
+     
   })
 
 

@@ -3,22 +3,64 @@
 
     {
         "courseCover": "/images/course-cover.png",
-        "courseName": "Complete Web 3.0 Course",
-        "courseId": "complete-web-3.0-course",
-        "courseIntroduction": "The is the introduction of the course ofcourse you can edit and put more content this is just dummy text for demo",
+        "courseName": "Manuale Operativo",
+        "courseId": "manuale-operativo",
+        "courseIntroduction": "Il Manuale Operativo viene fornito a tutti i membri della nostra community.\nQuesto Manuale non è un percorso formativo sulla DeFi, bensì una guida al cui interno sono racchiuse tutte le operazioni da compiere per accedere alle opportunità che vengono presentate alla community.\nÈ opportuno saper eseguire tutti i passaggi che vengono spiegati all'interno del Manuale così com'è opportuno imparare tutti i termini contenuti all'interno del glossario, al fine di poter rendere ogni membro della community capace, consapevole e allineato con gli altri.\n",
            
         "categories": [
                {
-                "categoryName": "Introduction",
+                "categoryName": "Introduzione",
                 "videos": [
                     {
                         "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
-                        "videoCover": "/images/introduction-cover.png",
-                        "videoTitle": "What is Metamask",
-                        "videoId": "what-is-metamask",
-                        "videoDescription": "The is dummy video discription ofcourse you can change it"
+                        "videoCover": "https://media.ulama.io/lessons/25338/BENVENUTO%21.png",
+                        "videoTitle": "1) Benvenuto",
+                        "videoId": "benvenuto",
+                        "videoDescription": "Benvenuti ragazzi all'interno della nostra community!"
+                    },
+                    {
+                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+                        "videoCover": "https://media.ulama.io/lessons/22685/BINANCE.png",
+                        "videoTitle": "2) Binance",
+                        "videoId": "binanc",
+                        "videoDescription": ""
+                    },
+                    {
+                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+                        "videoCover": "https://media.ulama.io/lessons/24342/METAMASK.png",
+                        "videoTitle": "3) Metamask",
+                        "videoId": "metamask",
+                        "videoDescription": ""
+                    },
+                    {
+                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+                        "videoCover": "https://media.ulama.io/lessons/26473/GLOSSARIO.png",
+                        "videoTitle": "4) Glossario",
+                        "videoId": "glossario",
+                        "videoDescription": "https://academy.spacegem.finance/attachments/download/manuale-operativo/26473/Il-Crypto-Glossario-di-SpaceGem.pdf"
                     }
 
+                ]
+               },
+
+               {
+                "categoryName": "Piattaforme DEX",
+
+                "videos": [
+                    {
+                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+                        "videoCover": "https://media.ulama.io/lessons/25340/PANCAKESWAP.png",
+                        "videoTitle": "1) Pancakeswap",
+                        "videoId": "pancakeswap",
+                        "videoDescription": ""
+                    },
+                    {
+                        "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-30s.mp4",
+                        "videoCover": "https://media.ulama.io/lessons/25345/TOOLS.png",
+                        "videoTitle": "2) Tools",
+                        "videoId": "tools",
+                        "videoDescription": ""
+                    }
                 ]
                }
        ]
